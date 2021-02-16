@@ -1,0 +1,1 @@
+console.log(`Can see foundry from test-script.js: \n${Object.keys(foundry)}`);
