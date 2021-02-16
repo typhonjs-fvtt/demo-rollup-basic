@@ -29,7 +29,7 @@ export default () =>
       },
       {
          file: `${s_CLIENT_PATH}${path.sep}foundry-esm.js`,
-         format: 'esm',
+         format: 'es',
          preferConst: true,
          sourcemap: s_SOURCEMAP,
          sourcemapPathTransform: (sourcePath) => sourcePath.replace(relativeClientPath, `.`)
@@ -41,7 +41,7 @@ export default () =>
       input: ['src/server/index.js'],
       output: [{
          file: `${s_DEPLOY_PATH}${path.sep}server-esm.js`,
-         format: 'esm',
+         format: 'es',
          preferConst: true,
          sourcemap: s_SOURCEMAP,
          sourcemapPathTransform: (sourcePath) => sourcePath.replace(relativeServerPath, `.`)
