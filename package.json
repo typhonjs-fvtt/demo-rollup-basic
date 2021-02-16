@@ -23,11 +23,6 @@
     "http-server": "^0.12.0",
     "rollup": "^2.0.0"
   },
-  "keywords": [
-    "rollup",
-    "basic",
-    "concat"
-  ],
   "scripts": {
     "build": "rollup --config",
     "serve": "http-server \"./public\" --port 8080"
